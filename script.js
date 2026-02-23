@@ -103,7 +103,7 @@ function updateDashboard() {
 
 function generateJobCardHTML(job) {
     let badgeText = "NOT APPLIED";
-    let badgeClass = "bg-[#f1f5f9] text-[#002C5C]";
+    let badgeClass = "bg-[#EEF4FF] text-[#002C5C]";
     
     if (job.status === 'Interview') {
         badgeText = "INTERVIEW";
